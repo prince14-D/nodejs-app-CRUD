@@ -1,15 +1,15 @@
-const mysql = require('mysql');
+const mysql = require('mysql2');
 
-const conn = mysql.createConnection({
+const connection = mysql.createConnection({
   host: 'localhost',
   user: 'Admin',
-  password: 'Password@123', // set your MySQL password
-  database: 'studentdb'
+  password: 'Password@123', // change this!
+  database: 'node_crud'
 });
 
-conn.connect((err) => {
+connection.connect((err) => {
   if (err) throw err;
   console.log('MySQL Connected!');
 });
 
-module.exports = conn;
+module.exports = connection;

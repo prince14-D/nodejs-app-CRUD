@@ -10,6 +10,19 @@
     "body-parser": "^1.20.2",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
-    "mysql": "^2.18.1"
-  }
+    "mysql": "^2.18.1",
+    "mysql2": "^3.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prince14-D/nodejs-app-CRUD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prince14-D/nodejs-app-CRUD/issues"
+  },
+  "homepage": "https://github.com/prince14-D/nodejs-app-CRUD#readme",
+  "devDependencies": {}
 }
