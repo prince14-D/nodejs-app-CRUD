@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Node.js CRUD with MySQL</title>
+  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+</head>
+<body>
+  <header>
+    <h1>Node.js CRUD App</h1>
+  </header>
+
+  <main>
+    <h2>Add New User</h2>
+    <form action="/add" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <button type="submit">Add User</button>
+    </form>
+
+    <hr>
+
+    <a href="/users">View All Users</a>
+  </main>
+</body>
+</html>
